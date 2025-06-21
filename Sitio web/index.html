@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tacos a vapor El Hermano </title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <header>
+    <h1>Tacos a vapor El Hermano</h1>
+    <nav>
+      <a href="#conocenos">Conócenos</a>
+      <a href="#menu">Menú</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#contactos">Contactos</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-overlay">
+      <h1>Bienvenidos!</h1>
+      <h5>
+        Desde hace 10 años ofrecemos los mejores tacos a vapor en El Fuerte,
+        Sinaloa, México.
+      </h5>
+    </div>
+  </section>
+
+  <section class="section" id="conocenos">
+    <div
+      class="container d-flex flex-wrap align-items-center justify-content-between"
+    >
+      <div class="text-content" style="flex: 1; max-width: 50%">
+        <h2>Conócenos</h2>
+        <p>
+          En El Fuerte, Sinaloa, llevamos 10 años dedicados a preparar tacos a
+          vapor con auténtico sabor y calidad. Durante este tiempo, hemos
+          trabajado arduamente para brindar una experiencia gastronómica que
+          combina tradición y frescura en cada taco que servimos. Nuestra misión
+          es mantener la calidad que nos caracteriza y el compromiso con nuestra
+          comunidad.
+        </p>
+      </div>
+
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+        style="flex: 1; max-width: 45%"
+      >
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/Jaime.jpg"
+              class="d-block w-100"
+              alt="Imagen 1"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="images/Preparacion.jpg"
+              class="d-block w-100"
+              alt="Imagen 2"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <h2 class="mb-4 text-center">Nuestro Menú</h2>
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4 mb-4">
+          <div class="card menu-card h-100">
+            <img
+              src="images/Maiz.jpeg"
+              class="card-img-top"
+              alt="Ejemplo de comida"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Taco de Maiz</h5>
+              <p class="card-text precio">$6 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm-6 col-md-4 mb-4">
+          <div class="card menu-card h-100">
+            <img
+              src="images/Harina.jpeg"
+              class="card-img-top"
+              alt="Ejemplo de comida"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Burrito de Harina</h5>
+              <p class="card-text precio">$12 MXN</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-sm-6 col-md-4 mb-4">
+          <div class="card menu-card h-100">
+            <img
+              src="images/Aguas.jpeg"
+              class="card-img-top"
+              alt="Ejemplo de comida"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Horchata, Cebada o Jamaica</h5>
+              <p class="card-text precio">$22 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <a href="sabores.html" class="btn btn-secondary">Más productos!</a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ubicacion">
+    <div class="container text-center">
+      <h2 class="mb-4">Ubicación</h2>
+      <p class="mb-4">Nos encontramos en el corazón de la ciudad, en la calle principal.</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.4319093841813!2d-108.6219!3d26.4187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba31e77d7e05a3%3A0x3b3e02f02c9621df!2sCalle%20Benito%20Ju%C3%A1rez%20123%2C%20El%20Fuerte%2C%20Sin.!5e0!3m2!1ses-419!2smx!4v1718840671329!5m2!1ses-419!2smx" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </section>
+
+  <section class="review" id="opiniones">
+    <h2>Opiniones de clientes</h2>
+    <div class="scrolling-reviews mx-auto">
+     
+      <div class="review">
+        <img
+          src="images/Maria.jpeg"
+          alt="Avatar cliente"
+          class="review-avatar"
+        />
+        <p>"¡La comida es deliciosa y el ambiente increíble!" - María López</p>
+      </div>
+
+      <div class="review">
+        <img
+          src="images/Miguel.jpeg"
+          alt="Avatar cliente"
+          class="review-avatar"
+        />
+        <p>"Un lugar que no puedo dejar de visitar. ¡Recomendado!" - Miguel Pérez</p>
+      </div>
+
+      <div class="review">
+        <img
+          src="images/Andrea.jpeg"
+          alt="Avatar cliente"
+          class="review-avatar"
+        />
+        <p>"A mis hijos les encantan! Super recomendados." - Andrea Ximenez</p>
+      </div>
+      
+      <div class="review">
+        <img
+          src="images/Jose.jpeg"
+          alt="Avatar cliente"
+          class="review-avatar"
+        />
+        <p>"Excelente servicio y precios accesibles." - Jose Flores</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="contactos">
+    <h2>Contáctanos</h2>
+    <div class="card">
+      <form class="p-4">
+        <input
+          type="text"
+          class="form-control mb-2"
+          placeholder="Tu nombre"
+          required
+        />
+        <input
+          type="email"
+          class="form-control mb-2"
+          placeholder="Tu correo electrónico"
+          required
+        />
+        <textarea
+          class="form-control mb-2"
+          placeholder="Tu mensaje"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
+
